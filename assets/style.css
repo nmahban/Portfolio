@@ -28,6 +28,10 @@ h1 {
   border-radius: 0px 8px 8px 0px;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 nav a:hover {
   color: #fff;
   font-weight: bold;
@@ -74,6 +78,7 @@ a {
   font-size: 30px;
   background-color: rgb(37, 187, 134);
   border-radius: 5px 5px 5px 5px;
+  padding: 3px;
 }
 
 img {
@@ -81,7 +86,32 @@ img {
   height: 250px;
 }
 
+body {
+  background-color: rgb(201, 220, 201);
+}
 /* Trying to experiment with gradients for the color. Will come back to this.
 h1 {
     background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
 } */
+
+.me {
+  inline-size: 150px;
+  text-align: right;
+  /* border-right: 6px solid green;
+  border-right-style: dotted;
+  height: 500px; */
+}
+
+.vertical {
+  border-left: 6px solid rgb(37, 187, 134);
+  height: 150px;
+  position: absolute;
+  left: 13%;
+}
+
+p {
+  text-align: center;
+}
+
+.work {
+}
