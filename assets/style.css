@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+/* 
+.vertical {
+  border-left: 6px solid green;
+  height: 200px;
+} */
+
+li {
+  float: right;
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Trying to experiment with gradients for the color. Will come back to this.
+h1 {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+} */
