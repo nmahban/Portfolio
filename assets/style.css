@@ -1,20 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1%;
-  background-color: #13293d;
-  color: #fff;
+  background-color: rgb(55, 52, 52);
+  color: black;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.tree {
+  height: 250px;
+  width: 1300px;
+}
+
+h1 {
+  background-color: rgb(37, 187, 134);
+  padding: 5px;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  width: 270px;
+  text-align: right;
+  font-size: 35px;
+  border-radius: 0px 8px 8px 0px;
 }
 
 nav a:hover {
   color: #fff;
+  font-weight: bold;
 }
 
 nav a {
-  color: #b9c6ae;
+  color: rgb(37, 187, 134);
   font-weight: bold;
   text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  width: fit-content;
 }
 
 nav ul {
@@ -35,12 +65,6 @@ li {
 
 a {
   display: block;
-  padding: 8px;
-}
-
-body {
-  padding: 0;
-  margin: 0;
 }
 
 /* Trying to experiment with gradients for the color. Will come back to this.
