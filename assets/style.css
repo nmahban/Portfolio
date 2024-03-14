@@ -107,11 +107,31 @@ h1 {
   height: 150px;
   position: absolute;
   left: 13%;
+
 }
 
-p {
-  text-align: center;
+.vertical2 {
+  border-left: 6px solid rgb(37, 187, 134);
+  height: 500px;
+  position: absolute;
+  left: 13%;
+  bottom: 30%;
+
+}
+
+
+.para {
+  position: relative;
+  bottom: 70px;
+  padding-left: 500px;
+
+  
 }
 
 .work {
-}
+  font-size: 50px;
+  position: relative;
+  top: 350px;
+  padding-left: 10px;
+  
+} 
