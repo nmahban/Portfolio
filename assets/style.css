@@ -119,15 +119,15 @@ h1 {
 
 .vertical2 {
   border-left: 6px solid rgb(37, 187, 134);
-  height: 500px;
+  height: 900px;
   position: absolute;
   left: 15%;
-  bottom: 30%;
+  bottom: 7%;
 }
 
 .vertical3 {
   border-left: 6px solid rgb(37, 187, 134);
-  height: 300px;
+  height: 700px;
   position: absolute;
   left: 15%;
   top: 100%;
@@ -173,19 +173,35 @@ h1 {
 .uiwork {
   width: 30%;
   position: relative;
-  left: 417px;
-  top: 135px;
+  left: 500px;
+  top: 140px;
 }
 
 .uiwork2 {
   width: 30%;
   position: relative;
-  left: 417px;
+  left: 500px;
   top: 140px;
 }
 
-.uiwork3 {
+/* .uiwork3 {
   position: absolute;
   top: 265px;
-  right: 2000px;
+  right: 800px;
+} */
+
+.uiwork4 {
+  width: 30%;
+  position: relative;
+  left: 500px;
+  top: 140px;
 }
+
+.uiwork5 {
+  width: 30%;
+  position: relative;
+  left: 500px;
+  top: 140px;
+}
+
+
